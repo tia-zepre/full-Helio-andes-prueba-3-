@@ -66,7 +66,7 @@ function ListaUsuarios() {
                                                     <a href="#" className="btn btn-sm bg-teal">
                                                         <i className="fas fa-comments" />
                                                     </a>
-                                                    <a href="#" className="btn btn-sm btn-primary">
+                                                    <a href={'/usuario/' + usuario.id} className="btn btn-sm btn-primary">
                                                         <i className="fas fa-user" /> Ver detalles
                                                     </a>
                                                 </div>

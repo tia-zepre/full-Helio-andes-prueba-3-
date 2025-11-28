@@ -12,8 +12,8 @@ function Kpis() {
                         </div>{/* /.col */}
                         <div className="col-sm-6">
                             <ol className="breadcrumb float-sm-right">
-                                <li className="breadcrumb-item"><a href="#">Home</a></li>
-                                <li className="breadcrumb-item active">Dashboard v1</li>
+                                <li className="breadcrumb-item"><a href="/admin">Panel de control</a></li>
+                                <li className="breadcrumb-item "><a href="/">Pagina web</a></li>
                             </ol>
                         </div>{/* /.col */}
                     </div>{/* /.row */}

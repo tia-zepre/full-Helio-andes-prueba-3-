@@ -5,7 +5,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../Images/logo.png'; // Ruta de tu logo
-import userImage from '../Images/persona1.jpg'; // Ruta de la imagen del usuario
+
+const userImage = "/dist/img/user1-128x128.jpg"; //ruta desde public
 
 function NavbarPrincipal() {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -15,6 +16,7 @@ function NavbarPrincipal() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
+    
 
     // Función para manejar el inicio de sesión simulado
     const handleLoginLogout = () => {
@@ -23,7 +25,7 @@ function NavbarPrincipal() {
             setUser(null); // Limpiar datos del usuario
         } else {
             setIsAuthenticated(true); // Iniciar sesión
-            setUser({ name: 'Juan Pérez', photo: userImage }); // Datos del usuario
+            setUser({ name: 'admin', photo: userImage }); // Datos del usuario
         }
     };
 

@@ -19,10 +19,10 @@ function Contacto() {
 
 
   return (
-    <div className='container'>
+    <div className='container '>
       <Card className="shadow p-4 border-0 rounded-4 mt-4 mb-4">
         <Card.Body>
-          <form className='row mt-3 g-3 needs-validation' noValidate>
+          <form className='row mt-3 g-3 needs-validation vh-100' noValidate>
             <div className='row'>
               <div >
                 <div className="col-12 d-flex justify-content-between  p-1 mb-1"  >

@@ -12,7 +12,7 @@ function NavBarPrincipal() {
           <a href="/admin" className="nav-link">Dashboard</a>
         </li>
         <li className="nav-item d-none d-sm-inline-block">
-          <a href="/adminServicios" className="nav-link">servicios</a>
+          <a href="/" className="nav-link">Pagina Web</a>
         </li>
       </ul>
       {/* Right navbar links */}

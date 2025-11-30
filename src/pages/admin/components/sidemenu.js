@@ -72,7 +72,7 @@ function Sidemenu() {
                             </li>
 
                             <li className="nav-item">
-                                <a href="#" className="nav-link">
+                                <a href="/adminSoluciones" className="nav-link">
                                     <i className="nav-icon fas fa-building" />
                                     <p>
                                         Soluciones
@@ -80,7 +80,7 @@ function Sidemenu() {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="#" className="nav-link">
+                                <a href="/adminPlanes" className="nav-link">
                                     <i className="nav-icon fas fa-table" />
                                     <p>
                                         Planes
@@ -89,7 +89,7 @@ function Sidemenu() {
                             </li>
 
                             <li className="nav-item">
-                                <a href="#" className="nav-link">
+                                <a href="/adminTestimonio" className="nav-link">
                                     <i className="nav-icon fas fa-edit" />
                                     <p>
                                         Testimonios
@@ -100,19 +100,10 @@ function Sidemenu() {
 
 
                             <li className="nav-item">
-                                <a href="pages/calendar.html" className="nav-link">
-                                    <i className="nav-icon far fa-calendar-alt" />
-                                    <p>
-                                        Calendar
-                                        <span className="badge badge-info right">2</span>
-                                    </p>
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a href="pages/gallery.html" className="nav-link">
+                                <a href="/galeria" className="nav-link">
                                     <i className="nav-icon far fa-image" />
                                     <p>
-                                        Gallery
+                                        Galleria
                                     </p>
                                 </a>
                             </li>
@@ -182,38 +173,7 @@ function Sidemenu() {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="nav-item">
-                                <a href="#" className="nav-link">
-                                    <i className="nav-icon far fa-plus-square" />
-                                    <p>
-                                        modificaciones
-                                        <i className="fas fa-angle-left right" />
-                                    </p>
-                                </a>
-                                <ul className="nav nav-treeview">
-
-                                    <li className="nav-item">
-                                        <a href="pages/examples/lockscreen.html" className="nav-link">
-                                            <i className="far fa-circle nav-icon" />
-                                            <p>Lockscreen</p>
-                                        </a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="pages/examples/legacy-user-menu.html" className="nav-link">
-                                            <i className="far fa-circle nav-icon" />
-                                            <p>Legacy User Menu</p>
-                                        </a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="pages/examples/language-menu.html" className="nav-link">
-                                            <i className="far fa-circle nav-icon" />
-                                            <p>Language Menu</p>
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </li>
-
+                            
 
                             <li className="nav-header">LABELS</li>
                             <li className="nav-item">
@@ -222,12 +182,7 @@ function Sidemenu() {
                                     <p className="text">Important</p>
                                 </a>
                             </li>
-                            <li className="nav-item">
-                                <a href="#" className="nav-link">
-                                    <i className="nav-icon far fa-circle text-warning" />
-                                    <p>Warning</p>
-                                </a>
-                            </li>
+                            
                             <li className="nav-item">
                                 <a href="#" className="nav-link">
                                     <i className="nav-icon far fa-circle text-info" />

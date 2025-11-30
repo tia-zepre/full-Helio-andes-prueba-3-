@@ -1,18 +1,18 @@
 import React from 'react';
 import NavBarPrincipal from './components/navbar';
 import Sidemenu from './components/sidemenu';
-import ServicioLista from './components/servicio_list';
+import PlanesLista from './components/planes_list';
 
 
-function ListaServicios() {
+function ListaPlanes() {
     return (
         <div>
             <NavBarPrincipal/>
             <Sidemenu/>
-            <ServicioLista/>
+            <PlanesLista/>
             
         </div>
     );
 }
 
-export default ListaServicios;
+export default ListaPlanes;

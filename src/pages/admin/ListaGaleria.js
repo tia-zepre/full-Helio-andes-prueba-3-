@@ -1,18 +1,18 @@
 import React from 'react';
 import NavBarPrincipal from './components/navbar';
 import Sidemenu from './components/sidemenu';
-import ServicioLista from './components/servicio_list';
+import Galeria from './components/galeria';
 
 
-function ListaServicios() {
+function ListaGaleria() {
     return (
         <div>
             <NavBarPrincipal/>
             <Sidemenu/>
-            <ServicioLista/>
+            <Galeria/>
             
         </div>
     );
 }
 
-export default ListaServicios;
+export default ListaGaleria;

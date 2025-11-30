@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "nombre": "Estudio Energético",
+    "contenido": "Análisis detallado del consumo de energía para dimensionar el sistema fotovoltaico óptimo para tu hogar o pyme, maximizando el ahorro y la eficiencia.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT310HFx7W3v_Td2CK7dAy0f_I1tjbOyf_czw&s"
+  },
+  {
+    "id": 2,
+    "nombre": "Instalación Certificada",
+    "contenido": "Montaje e implementación del sistema solar fotovoltaico cumpliendo con todas las normativas y estándares de seguridad de la Superintendencia de Electricidad y combustibles.",
+    "imagen": "https://www.bbva.com/wp-content/uploads/2021/05/paneles_solares_sostenibilidad-placas-energia-solar-1024x629.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Monitoreo",
+    "contenido": "Seguimiento continuo del rendimiento de tu planta solar a través de plataformas digitales, permitiendo detectar fallas rápidamente y asegurar la máxima producción de energía.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG9RQZrVSRpldoy126l5eDXRWgJ_i3bDSyAQ&s"
+  },
+  {
+    "id": 4,
+    "nombre": "Mantención",
+    "contenido": "Servicios preventivos y correctivos para preservar la vida útil de los equipos, segurando el óptimo funcionamiento y eficiencia del sistema a lo largo del tiempo.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRMHXGEQsP8kQWC51HxNC0-lGxJgd3CUyG0g&s"
+  }
+ 
+]
